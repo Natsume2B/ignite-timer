@@ -1,8 +1,7 @@
 import { HandPalm, Play } from 'phosphor-react'
 import { zodResolver } from '@hookform/resolvers/zod'
 import * as zod from 'zod'
-import { useForm } from 'react-hook-form/dist/useForm'
-import { FormProvider } from 'react-hook-form/dist/useFormContext'
+import { useForm, FormProvider } from 'react-hook-form'
 
 import {
   HomeContainer,
