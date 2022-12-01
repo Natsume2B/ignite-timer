@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { CyclesContext } from '../../contexts/CyclesContext'
+import { CyclesContext } from '../../context/CyclesContext'
 import { HistoryContainer, HistoryList, Status } from './styles'
 import { formatDistanceToNow } from 'date-fns'
 import ptBR from 'date-fns/esm/locale/pt-BR'
